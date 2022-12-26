@@ -1,0 +1,17 @@
+{
+    "name": "optimacros/nexus-php-api",
+    "description": "Nexus repository API PHP client",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "autoload": {
+        "psr-4": { "Optimacros\\NexusPhpApi\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Optimacros\\NexusPhpApi\\" : "test/" }
+    }
+}
